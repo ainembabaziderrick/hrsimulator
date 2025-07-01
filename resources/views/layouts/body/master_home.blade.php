@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>E Police</title>
+  <title>HR Simulator</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"

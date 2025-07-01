@@ -135,13 +135,14 @@
 
   <section class="layout_padding story_section">
     <div class="container-fluid">
+      @foreach($successes as $value)
       <div class="row">
         <div class=" col-md-6">
           <div>
             <img class="img-fluid" src=" {{$value->image}}" alt="" />
           </div>
         </div>
-        @foreach($successes as $value)
+        
         <div class=" col-md-6">
           <div class="story_detail">
             <h3>

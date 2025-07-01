@@ -5,8 +5,8 @@
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="{{ url('admin/dashboard')}}" class="logo d-flex align-items-center">
-        <img src="{{asset('backend/img/police.jpg')}}" alt="">
-        <span class="d-none d-lg-block">EPolice</span>
+        <img src="{{asset('backend/img/hr-logo.jpg')}}" alt="">
+        <span class="d-none d-lg-block">HR Simulator</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->

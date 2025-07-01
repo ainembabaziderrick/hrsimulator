@@ -4,7 +4,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="#">
           <div class="logo_box">
-            <img src="frontend/images/police.jpg" alt="" />
+            <img src="frontend/images/hr-logo.jpg" alt="" />
           </div>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

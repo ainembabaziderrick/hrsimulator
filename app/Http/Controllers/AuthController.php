@@ -32,11 +32,7 @@ class AuthController extends Controller
         $save->c_password = Hash::make($request->c_password);
         $save->is_role = trim($request->is_role);
         $save->remember_token = Str::random(40);
-        $save->save();
-
-        Mail::to($save->email)->send(new RegisterMail($save));
-
-        
+        $save->save();          
 
         return redirect('login')->with('success', 'Account created successfully Kindly verify your email');
     }
